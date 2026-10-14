@@ -2,28 +2,15 @@
 
 long calculate_factorial(int number )
 {
-// TODO: write your code here
-
-    // Check for invalid input: number must be between 1 and 20
-    if (number < 1 || number > 20)
-    {
-        return -1;
-    }
-
-    long result = 1;
-    int i;
-    for (i = 1; i <= number; i++)
-    {
-        result = result * i;
-    }
-    return result;
+    // TODO: write your code here
 }
 
 // DO NOT change the code below
 #ifndef ___TEST___
 int main() {
-    int number = -1;
+    int number =- 1;
     long result = -1;
+
     printf("Input a positive integer: ");
     scanf("%d", &number);
     result = calculate_factorial(number);
